@@ -3,7 +3,7 @@
 / {
 	model = "Samsung DM2Q PROJECT (board-id,03)";
 	compatible = "qcom,kalama-mtp\0qcom,kalama\0qcom,mtp";
-	qcom,msm-id = <0x218 0x20000 0x207 0x20000 0x207 0x10000 0x218 0x10000>;
+	qcom,msm-id = <0x207 0x20000 0x207 0x10000 0x218 0x20000 0x218 0x10000>;
 	qcom,board-id = <0x10008 0x03>;
 	dtbo-hw_rev = <0x04>;
 	dtbo-hw_rev_end = <0x04>;
@@ -23819,7 +23819,7 @@
 				qcom,cdc-micbias2-mv = <0x708>;
 				qcom,cdc-micbias1-mv = <0x708>;
 				qcom,cdc-vdd-mic-bias-current = <0x7530>;
-				qcom,cdc-vdd-mic-bias-voltage = "\02K\0\02K";
+				qcom,cdc-vdd-mic-bias-voltage = [02 4b 00 02 4b 00];
 				cdc-vdd-mic-bias-supply = <0x1be>;
 				qcom,cdc-vdd-buck-lpm-supported = <0x01>;
 				qcom,cdc-vdd-buck-current = <0x9eb10>;
